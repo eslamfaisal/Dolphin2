@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rafakob.drawme.DrawMeLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drawme="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    drawme:dm_backColor="@color/colorPrimary"
+    drawme:dm_backColorDisabled="@color/grey"
+    drawme:dm_backColorPressed="@color/green"
+    drawme:dm_radius="10dp">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/_18ssp" />
+
+
+    <TextView
+        android:layout_margin="@dimen/_8sdp"
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="تقييم جيد"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18ssp" />
+    <TextView
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:id="@+id/technical_arrival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18ssp" />
+    <LinearLayout
+        android:id="@+id/action_view"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.rafakob.drawme.DrawMeButton
+            android:layout_marginEnd="@dimen/_8sdp"
+            drawme:dm_backColor="@color/colorPrimaryDark"
+            drawme:dm_backColorDisabled="@color/grey"
+            drawme:dm_backColorPressed="@color/green"
+            drawme:dm_radius="10dp"
+            android:id="@+id/confirm"
+            android:text="@string/confirm"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.rafakob.drawme.DrawMeButton
+            android:layout_marginEnd="@dimen/_8sdp"
+
+            drawme:dm_backColor="@color/colorPrimaryDark"
+            drawme:dm_backColorDisabled="@color/grey"
+            drawme:dm_backColorPressed="@color/green"
+            drawme:dm_radius="10dp"
+            android:textColor="@color/white"
+
+            android:id="@+id/delay"
+            android:text="@string/delay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.rafakob.drawme.DrawMeButton
+            drawme:dm_backColor="@color/colorPrimaryDark"
+            drawme:dm_backColorDisabled="@color/grey"
+            drawme:dm_backColorPressed="@color/green"
+            drawme:dm_radius="10dp"
+            android:textColor="@color/white"
+            android:id="@+id/cancel"
+            android:text="@string/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.rafakob.drawme.DrawMeLinearLayout>

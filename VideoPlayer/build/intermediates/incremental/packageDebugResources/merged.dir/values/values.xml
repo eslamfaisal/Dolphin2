@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_black">#000000</color>
+    <color name="color_video_transparent">#88000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_white_light_shade">#22FFFFFF</color>
+    <dimen name="size_fifty">50dp</dimen>
+    <dimen name="size_five">5dp</dimen>
+    <dimen name="size_forty">40dp</dimen>
+    <dimen name="size_hundred">100dp</dimen>
+    <dimen name="size_sixteen">16dp</dimen>
+    <dimen name="size_ten">10dp</dimen>
+    <dimen name="size_thirty_five">35dp</dimen>
+    <dimen name="size_three">3dp</dimen>
+    <dimen name="size_two">2dp</dimen>
+    <string name="app_name">custom-video-player</string>
+    <string name="back">Back</string>
+    <string name="video_title">Title</string>
+</resources>

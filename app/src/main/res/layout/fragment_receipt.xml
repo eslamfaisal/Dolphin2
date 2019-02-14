@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drawme="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    drawme:dm_backColor="@color/white"
+    drawme:dm_radius="8dp"
+    android:paddingTop="@dimen/_26sdp"
+    android:orientation="vertical"
+    drawme:dm_stroke="1dp"
+    drawme:dm_strokeColor="@color/colorPrimary"
+    tools:context=".technicale.fragments.ReceiptFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:orientation="horizontal">
+
+        <com.rafakob.drawme.DrawMeTextView
+            android:layout_width="0dp"
+            android:text="@string/hours"
+            android:gravity="center"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            drawme:dm_backColor="@color/colorPrimaryDark"
+            drawme:dm_radius="8dp" />
+
+        <com.rafakob.drawme.DrawMeEditText
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_weight="1"
+            drawme:dm_backColor="@color/white"
+            drawme:dm_radius="8dp"
+            drawme:dm_stroke="1dp"
+            drawme:dm_strokeColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:orientation="horizontal">
+
+        <com.rafakob.drawme.DrawMeTextView
+            android:layout_width="0dp"
+            android:text="@string/cost_of_hour"
+            android:gravity="center"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            drawme:dm_backColor="@color/colorPrimaryDark"
+            drawme:dm_radius="8dp" />
+
+        <com.rafakob.drawme.DrawMeEditText
+            android:id="@+id/location"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_weight="1"
+            drawme:dm_backColor="@color/white"
+            drawme:dm_radius="8dp"
+            drawme:dm_stroke="1dp"
+            drawme:dm_strokeColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:orientation="horizontal">
+
+        <com.rafakob.drawme.DrawMeTextView
+            android:layout_width="0dp"
+            android:text="@string/spare_parts_cost"
+            android:gravity="center"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            drawme:dm_backColor="@color/colorPrimaryDark"
+            drawme:dm_radius="8dp" />
+
+        <com.rafakob.drawme.DrawMeEditText
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_weight="1"
+            drawme:dm_backColor="@color/white"
+            drawme:dm_radius="8dp"
+            drawme:dm_stroke="1dp"
+            drawme:dm_strokeColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:orientation="horizontal">
+
+        <com.rafakob.drawme.DrawMeTextView
+            android:layout_width="0dp"
+            android:text="@string/total_cost"
+            android:gravity="center"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            drawme:dm_backColor="@color/colorPrimaryDark"
+            drawme:dm_radius="8dp" />
+
+        <com.rafakob.drawme.DrawMeEditText
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_weight="1"
+            drawme:dm_backColor="@color/white"
+            drawme:dm_radius="8dp"
+            drawme:dm_stroke="1dp"
+            drawme:dm_strokeColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:orientation="horizontal">
+
+        <com.rafakob.drawme.DrawMeTextView
+            android:layout_width="0dp"
+            android:text="@string/descount"
+            android:gravity="center"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            drawme:dm_backColor="@color/colorPrimaryDark"
+            drawme:dm_radius="8dp" />
+
+        <com.rafakob.drawme.DrawMeEditText
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_weight="1"
+            drawme:dm_backColor="@color/white"
+            drawme:dm_radius="8dp"
+            drawme:dm_stroke="1dp"
+            drawme:dm_strokeColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+
+</LinearLayout>

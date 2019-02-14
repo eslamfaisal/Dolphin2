@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:icon="@drawable/nav_home_icon"
+        android:id="@+id/nav_main"
+        android:title="@string/home" />
+
+    <item
+        android:icon="@drawable/cart2"
+        android:id="@+id/nav_my_orders"
+        android:title="@string/my_orders" />
+    <item
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:id="@+id/nav_profile"
+        android:title="@string/my_account" />
+
+    <item
+        android:icon="@android:drawable/sym_call_outgoing"
+        android:id="@+id/nav_call_us"
+        android:title="@string/call_us" />
+    <item
+        android:icon="@drawable/ic_security_black_24dp"
+        android:id="@+id/nav_terms"
+        android:title="@string/terms" />
+    <item
+        android:icon="@drawable/ic_login"
+        android:id="@+id/nave_in"
+        android:title="@string/log_in" />
+    <item
+        android:icon="@drawable/ic_log_out"
+        android:id="@+id/nav_out"
+        android:title="@string/log_out" />
+</menu>
